@@ -1,0 +1,32 @@
+/* pages/movie/movie.wxss */
+.movie{
+  height: 300rpx;
+  display: flex;
+  padding:20rpx;
+  border-bottom:1px solid #ccc;
+}
+.movie-img{
+  width: 200rpx;
+  height: 100%;
+
+}
+/* 占用父元素剩余空间的1份 */
+.movie-info{
+  flex:1;
+  padding: 10rpx;
+}
+.movie-title{
+  color:#666;
+  font-size: 40rpx;
+  font-weight: bolder;
+}
+.movie-score{
+  color:#faaf00;
+}
+.movie-comment{
+  height: 60rpx;
+  background: #e54847;
+  color: #fff;
+  font-size: 26rpx;
+  margin-top:120rpx;
+}
